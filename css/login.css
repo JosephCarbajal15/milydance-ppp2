@@ -14,7 +14,7 @@
     position: relative;
     margin: auto;
     width: 1152px;
-    height: 700px;
+    height: 586px;
     background: #FFFFFF;
 }
 .login1{
@@ -98,6 +98,9 @@
     background: #FAF9F9;
     border: 1px solid #E2E0E1;
     box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
     border-radius: 8px;
     top: 226px;
     right: 588px;
@@ -134,6 +137,9 @@
     font-family: 'Poppins', sans-serif;
     background: #FAF9F9;
     border: 1px solid #E2E0E1;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
     box-sizing: border-box;
     border-radius: 8px;
     top: 226px;

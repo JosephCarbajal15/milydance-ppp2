@@ -17,6 +17,62 @@
     height: 586px;
     background: #FFFFFF;
 }
+h1{
+    position: absolute;
+    width: 190px;
+    height: 36px;
+    left: 127px;
+    top: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #483C41;
+}
+.neweve{
+    position: absolute;
+    width: 109px;
+    height: 40px;
+    left: 916px;
+    top: 60px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 8px 16px;*/
+    background: #FF0088;
+    border-radius: 8px;
+    text-decoration-line: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    word-spacing: 10px;
+}
+.tabla{
+    position: absolute;
+    width: 898px;
+    height: auto;
+    left: 127px;
+    top: 130px;
+    font-family: 'Poppins', sans-serif;
+    border-spacing: 0px;
+    /*border: 1px solid #D5D2D3;
+    box-sizing: border-box;*/
+    border-radius: 8px;
+}
+/*
 .id{
     position: absolute;
     width: 16px;
@@ -67,26 +123,36 @@
     text-align: center;
     letter-spacing: -0.01em;
     color: #736A6D;
-}
+}*/
+
 .evelistT{
-    position: absolute;
-    width: 892px;
+    width: 898px;
     height: 40px;
     left: 127px;
     top: 170px;
-    background: #FAF9F9;
-    box-sizing: border-box;
-    border-radius: 9px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border: 1px solid #D5D2D3;
+    background: #FAF9F9;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-td{
-    padding: 10px 26px 9px 25px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+th{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #736A6D;
+    border-radius: 8px;
+}
+td{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 21px;
     align-items: center;
     text-align: center;

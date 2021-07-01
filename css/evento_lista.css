@@ -17,10 +17,79 @@
     height: 586px;
     background: #FFFFFF;
 }
+.id{
+    position: absolute;
+    width: 16px;
+    height: 24px;
+    left: 147px;
+    top: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #736A6D;
+}
+.nombre{
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    left: 229px;
+    top: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #736A6D;
+}
+.fecha_inicio{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 405px;
+    top: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #736A6D;
+}
 .evelistT{
     position: absolute;
     width: 892px;
-    height: 366px;
+    height: 40px;
     left: 127px;
     top: 170px;
+    background: #FAF9F9;
+    box-sizing: border-box;
+    border-radius: 9px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #D5D2D3;
+}
+td{
+    padding: 10px 26px 9px 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #736A6D;
 }

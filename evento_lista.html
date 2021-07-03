@@ -13,31 +13,45 @@
         <div class="evelist">
             <div class="evelistA">
                 <h1>Lista de eventos</h1>
-                <a class="neweve" href="#"><i class="bi bi-plus-lg"></i>Añadir</a>
-                <table class="tabla">
-                    <tr>
-                        <th class="id">ID</th>
-                        <th class="nombre">Nombre</th>
-                        <th class="fecha_inicio">Fecha inicio</th>
-                        <th class="fecha_fin">Fecha fin</th>
-                        <th class="precio">Precio</th>
-                        <th class="estado">Estado</th>
-                        <th class="acciones">Acciones</th>
-                    </tr>
-                    <tr class="evelistT">
-                        <td>01</td>
-                        <td>Evento tuqui</td>
-                        <td>30/07/2021</td>
-                        <td>08/07/2021</td>
-                        <td>s/ 20</td>
-                        <td>Activo</td>
-                        <td>
-                            <a class="ojito" href="#"><img src="/img/ojito.png" alt=""></a>
-                            <a class="edit" href="#"><img src="/img/edit.png" alt=""></a>
-                            <a class="delete" href="#"><img src="/img/delete.png" alt=""></a>
-                        </td>
-                    </tr>
-                </table>
+                <a class="neweve" href="evento_new.html"><i class="bi bi-plus-lg"></i>Añadir</a>
+                <form action="">
+                    <table class="tabla">
+                        <tr>
+                            <th class="id">ID</th>
+                            <th class="nombre">Nombre</th>
+                            <th class="fecha_inicio">Fecha inicio</th>
+                            <th class="fecha_fin">Fecha fin</th>
+                            <th class="precio">Precio</th>
+                            <th class="estado">Estado</th>
+                            <th class="acciones">Acciones</th>
+                        </tr>
+                        <tr class="evelistT">
+                            <td>01</td>
+                            <td>Evento tuqui</td>
+                            <td>30/07/2021</td>
+                            <td>08/07/2021</td>
+                            <td>s/ 20</td>
+                            <td>Activo</td>
+                            <td>
+                                <a class="ojito" href="#modal-cont-evento"><img src="/img/ojito.png" alt=""></a>
+                                <a class="edit" href="#"><img src="/img/edit.png" alt=""></a>
+                                <a class="delete" href="#"><img src="/img/delete.png" alt=""></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="modal-cont-evento" class="modaleve">
+                        <div class="modal-evento">
+                            <a class="modal-evento8" href="#">X</a>
+                            <img class="modal-evento1" src="/img/evento1.png" alt="">
+                            <p class="modal-evento2">Ayahuasca</p>
+                            <p class="modal-evento3">21/06/2021</p>
+                            <p class="modal-evento4">26/06/2021</p>
+                            <p class="modal-evento5">El evento se realizará vía zoom los días 21, 23 y 25. ¡No se lo pueden perder!</p>
+                            <p class="modal-evento6">s/. 20.00</p>
+                            <a class="modal-evento7" href="https://us05web.zoom.us/j/85031">https://us05web.zoom.us/j/85031</p>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
